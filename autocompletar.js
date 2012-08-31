@@ -39,7 +39,7 @@ function autocompletar_teclado(div, tabladiv, keyc) {
             seleccionado = child[indice].id;        
         }
     
-        mostrarPersona(seleccionado,div);
+        mostrarPersona(seleccionado);
     
     } else {
         // abajo

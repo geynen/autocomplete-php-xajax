@@ -62,7 +62,6 @@ function listadopersona($campo,$frase,$pag,$TotalReg){
 					}
 		   }
 	   }
-	   $registros.=$RegistroSeleccion;
 	   $registros.= "</tr>";
     }
 	//PAGINACION

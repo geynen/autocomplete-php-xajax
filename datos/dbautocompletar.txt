@@ -1,0 +1,26 @@
+CREATE TABLE `persona` (
+  `IdPersona` int(11) NOT NULL auto_increment,
+  `Nombres` varchar(50) collate utf8_spanish_ci NOT NULL,
+  `Apellidos` varchar(50) collate utf8_spanish_ci NOT NULL,
+  `NroDoc` varchar(10) collate utf8_spanish_ci NOT NULL,
+  PRIMARY KEY  (`IdPersona`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=17 ;
+
+
+INSERT INTO `persona` (`IdPersona`, `Nombres`, `Apellidos`, `NroDoc`) VALUES
+(1, 'KARLA', 'KASOS', '2047957052'),
+(2, 'ANGELINA', 'JOLIE', '2053134335'),
+(3, 'CESAR', 'PISFIL PECHE', '43825485'),
+(4, 'GEYNEN', 'MONTENEGRO COCHAS', '12345678'),
+(5, 'VARIOS', 'CLIENTE', '-'),
+(6, 'JUAQUIN', 'ALVARADO', '33'),
+(7, 'VILMA', 'PALMA', '77'),
+(8, 'VLADIMIR', 'ZEÑA', '66'),
+(9, 'PEDRO', 'PERES PEÑA', '1111111111'),
+(10, 'PEÑA', 'PEÑA', '1111111111'),
+(11, 'JUAN', 'PERES', '33'),
+(12, 'JUANA', 'PERES', '33'),
+(13, 'ANDREA', 'TORRES', '33'),
+(14, 'MEGAN', 'FOX', '1111111111'),
+(15, 'KAREN', 'DEJO', '1111111111'),
+(16, 'JUITIJUITI', 'LA', '1111111111');

@@ -2,7 +2,7 @@
 /******************************************
  * Autocompletar creado por Geynen Montenegro Cochas
  * Copyright Geynen. 
- * Fecha: 03-02-2011 Chiclayo - Perú
+ * Fecha: 23-09-2012 Chiclayo - Perú
  * Version: 1.0
  * http://geynen.wordpress.com
  * Ref: http://blog.rarecore.eu/autocompleter-using-xajax-updated.html
